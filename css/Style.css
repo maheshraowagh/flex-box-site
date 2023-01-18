@@ -1,0 +1,102 @@
+body{
+  font-family:cursive;
+  display: flex;
+  flex-direction: column;
+  margin:0
+}
+a{
+  text-decoration: none;
+}
+header{
+  background: #566c2b;
+  display:flex;
+  align-items: center;
+  padding: 15px 0;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin:0;
+
+}
+header a{
+  color:#fff;
+}
+
+#logo{
+  margin: 0 auto;
+  font-size: 35px;
+}
+#menu li{
+  padding: 10px;
+}
+#Social-links li{
+  padding: 10px;
+}
+#main{
+  display: flex;
+}
+aside{
+  padding: 10px;
+  flex:0 0 20vw;
+  background-color: beige;
+}
+aside img{
+  width: 100%;
+}
+aside ul{
+  list-style: none;
+  padding:0;
+}
+aside ul a{
+  color: #566c2b;
+  padding: 10px;
+  display: block;
+  border-bottom: 1px solid grey;
+}
+article{
+  padding: 10px;
+}
+.services-container{
+  display: flex;
+  justify-content: space-between;
+}
+.service-box{
+  border: 1px solid #eee;
+  padding: 10px;
+flex-basis: 32%;
+max-width: 440px;
+display: flex;
+flex-direction: column;
+}
+.service-box img{
+  width:100%;
+}
+.actionbutton{
+  align-self: flex-start;
+  margin-top: auto;
+}
+.actionbutton a:hover{
+  color:grey;
+  background: transparent;
+  border: 2px solid grey;
+}
+.service-box h3{
+  margin: 5px 0 10px;
+}
+.actionbutton a {
+  background: grey;
+  color:#fff;
+  padding: 8px; 13px;
+  display: block;
+  border: 2px solid transparent;
+
+}
+footer{
+  margin:38px 0;
+  background-color: #566c2b;
+  color: #fff;
+  padding:15px 0;
+  text-align: center;
+}
